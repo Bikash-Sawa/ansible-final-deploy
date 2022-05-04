@@ -18,3 +18,10 @@
     user:
      name: gaurav
      state: present
+  - name: Create a folder in production server
+    file:
+     path: ~/auto-created-folder
+     state: directory
+     mode: '0755'
+
+
